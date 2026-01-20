@@ -1,5 +1,11 @@
 # DevOps Bootcamp Final Project (2025)
 
+Web Server: https://labamir.com
+
+Grafana: https://grafana.labamir.com
+
+Githubs Pages: https://take2mir.github.io/devops-bootcamp-project/
+
 ## 📌 Project Overview
 
 This project demonstrates a complete **end-to-end DevOps implementation** covering infrastructure provisioning, configuration management, containerization, monitoring, security, and documentation automation.
@@ -22,7 +28,7 @@ The solution is designed based on **best practices** and aligns fully with the f
 * Docker & Amazon ECR
 * Prometheus & Grafana
 * Cloudflare DNS & Tunnel
-* GitHub Actions & GitHub Pages
+* GitHub Pages
 
 **Architecture Flow:**
 
@@ -89,6 +95,16 @@ The solution is designed based on **best practices** and aligns fully with the f
 
 All playbooks are executed from the **Ansible Controller EC2**.
 
+<img width="315" height="68" alt="image" src="https://github.com/user-attachments/assets/e1744454-13c8-4d88-a755-fc826d6186e2" />
+
+<img width="286" height="106" alt="image" src="https://github.com/user-attachments/assets/9e5ea5e7-444c-4fd8-8db8-5cc82faca51b" />
+
+<img width="272" height="313" alt="image" src="https://github.com/user-attachments/assets/54dceeeb-e260-476e-b20b-e25908026195" />
+
+
+
+
+
 ---
 
 ## 🐳 Application Containerization
@@ -104,6 +120,8 @@ All playbooks are executed from the **Ansible Controller EC2**.
 
 * Application accessible via browser
 * Container running successfully on port 80
+
+<img width="943" height="152" alt="image" src="https://github.com/user-attachments/assets/70f6c26a-b1d4-412b-be7a-fc93448764a0" />
 
 ---
 
@@ -142,6 +160,12 @@ All playbooks are executed from the **Ansible Controller EC2**.
 * No inbound firewall rules required
 * Monitoring server remains private
 
+<img width="875" height="227" alt="image" src="https://github.com/user-attachments/assets/a6c7560f-2870-4959-bee5-755fd9f1854e" />
+
+<img width="883" height="292" alt="image" src="https://github.com/user-attachments/assets/f5e0e13d-08e3-4f1f-bf77-b535f5eabc6b" />
+
+
+
 ---
 
 ## 📄 Documentation & Automation
@@ -150,10 +174,6 @@ All playbooks are executed from the **Ansible Controller EC2**.
 
 * Documentation hosted using GitHub Pages
 * Automatically updated on every commit
-
-### GitHub Actions
-
-* Workflow configured to deploy documentation updates
 
 ---
 
@@ -164,6 +184,9 @@ All playbooks are executed from the **Ansible Controller EC2**.
 * Docker image build
 * Push to Amazon ECR
 * Pull and deploy on Web Server
+
+<img width="783" height="197" alt="image" src="https://github.com/user-attachments/assets/de100169-3fea-4063-a501-530373313111" />
+
 
 ---
 
@@ -193,12 +216,12 @@ All playbooks are executed from the **Ansible Controller EC2**.
 
 ## 👤 Author
 
-**Mohd Amiruddin**
+**Mohd Amiruddin Bin Baki**
 DevOps Bootcamp 2025
 
 ---
 
 ## 📌 Notes
 
-This project follows industry best practices and demonstrates real-world DevOps workflows suitable for production environments.
+Terima kasih Tuan Syafi dan Tuan Ariff atas ilmu yang diberikan. Mohon halalkan ya! Bermanfaat sangat.
 
